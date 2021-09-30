@@ -16,7 +16,7 @@
     },
     "require-dev": {
         "codeigniter/coding-standard": "^1.1",
-        "fakerphp/faker": "^1.9",
+        "fakerphp/faker": "^1.16",
         "friendsofphp/php-cs-fixer": "^3.1",
         "mikey179/vfsstream": "^1.6",
         "nexusphp/cs-config": "^3.3",
