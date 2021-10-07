@@ -43,9 +43,9 @@ $routes->get('/', function () {
 });
 
 $routes->get('/admin', 'Templating::index');
-
+$routes->get('/register', 'Templating::register');
 $routes->get('/posts', 'PostController::index');
-
+$routes->post('/saveRegister', 'Templating::saveRegister');
 $routes->get('/about', function () {
     $data = [
         'title' => "Blog - About"
