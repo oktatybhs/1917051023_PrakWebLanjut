@@ -19,7 +19,7 @@
     <!-- JQVMap -->
     <link rel="stylesheet" href="/assets/adminlte/plugins/jqvmap/jqvmap.min.css">
     <!-- Theme style -->
-    <link rel="stylesheet" href="assets/adminlte/dist/css/adminlte.min.css">
+    <link rel="stylesheet" href="/assets/adminlte/dist/css/adminlte.min.css">
     <!-- overlayScrollbars -->
     <link rel="stylesheet" href="/assets/adminlte/plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
     <!-- Daterange picker -->
@@ -59,11 +59,14 @@
 <!-- overlayScrollbars -->
 <script src="/assets/adminlte/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
 <!-- AdminLTE App -->
-<script src="assets/adminlte/dist/js/adminlte.js"></script>
+<script src="/assets/adminlte/dist/js/adminlte.js"></script>
 <!-- AdminLTE for demo purposes -->
-<script src="assets/adminlte/dist/js/demo.js"></script>
+<script src="/assets/adminlte/dist/js/demo.js"></script>
 <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-<script src="assets/adminlte/dist/js/pages/dashboard.js"></script>
+<script src="/assets/adminlte/dist/js/pages/dashboard.js"></script>
+
+<?= $this->renderSection('myscript'); ?>
+
 </body>
 
 </html>
